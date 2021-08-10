@@ -1,4 +1,3 @@
-import os 
 import math
 
 number_sub = int(input("Number of Subjects: "))
@@ -45,42 +44,3 @@ print("GPA: {}".format(gpa))
 
 
 
-
-
-# student_count = 5;
-# A = [student_count]
-
-# for id_student in range(student_count):    
-#     print("STUDENT #", id_student+1)
-
-#     # x holds the list of grades
-#     x = []
-
-#     # count of assignments 
-#     assignments = 5
-
-#     # Ask for a student ID from user
-#     NETID = int(input('Enter your 4 digit student NET ID: '))
-
-#     # fill list with grades from console input
-#     x = [int(input('Please enter the grade you got on assignment {}: '.format(i+1))) for i in     range(assignments)]
-
-#     midTermGrade = int(input('Please enter the grade you got on you Mid-Term: '))
-#     finalGrade = int(input('Please enter the grade you got on you Final: '))
-
-#     # count average, 
-#     average_assignment_grade = (sum(x) + midTermGrade + finalGrade) / 7 
-
-#     print()
-#     print('NET ID | Average Final Grade')
-#     print('---------------------------------')
-
-#     for number in range(1):
-#         print(NETID, " | ", format(average_assignment_grade, '.1f'),'%')
-
-#     A.append(average_assignment_grade);
-
-# grades_sum = sum(A)
-# grades_average = grades_sum / 5;
-# print("SUM OF ALL STUDENTS = " + grades_sum)
-# print("AVERAGE OF ALL STUDENTS = " + grades_average)
